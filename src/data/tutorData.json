@@ -1,0 +1,29 @@
+
+{ "initialTutorData" : 
+    [
+        {
+            "name":"Tutors to find Students",
+            "description": " Tutors are required to assist primary, secondary and tertiary students in all subject areas throughout Australia. Below are answers to some common questions that you may have about Tutor Finder."
+          },
+          {
+            "name":"How do I become a tutor?",
+            "description":"Simply fill out the online Registration Form.We suggest you make your advertisement interesting and emphasise your specific skills, qualifications and experience. This is your chance to let students know who you are and how you can help them with their learning."
+          },
+          {
+            "name":"Do I have to pay a registration fee?",
+            "description":"It is FREE to register your service with Tutor Finder, with an option to upgrade if you want your listing to appear on the first page."
+          },
+          {
+            "name":"How can I update my profile?",
+            "description":"Click on Tutor Login. Enter your Email Address and  Password and update your information by following the instructions. You may update your information as often as necessary. As a registered member, you will also have access to information on students in need of a tutor in your area."
+          },
+          {
+            "name":"How much can I earn from tutoring?",
+            "description":"Hourly fees are set by each tutor and depend on the tutor's qualifications, the subject and the location. Beginning tutors and college students charge around $25 per hour. Certified teachers and professional tutors charge $10 or more per hour for their services."
+          },
+          {
+            "name":"What happens after I register?",
+            "description":"Your information will be entered into our database and will be available in a professionally designed personal webpage. Students will be able to see your information including education qualifications, comments and the subjects you have selected. The initial student/parent request will be forwarded to you by tutorfinder.com.au. After that, you will be in direct contact with your student and tutorfinder.com.au will not be involved in further interactions between you and that student. You will be able to give your references, discuss your rates, availability and tutoring style. Please be sensitive to the needs of the student. They have contacted you because you have the expertise they are looking for. Proper personal conduct and professionalism are important characteristics of a qualified tutor."
+          }
+    ]
+}

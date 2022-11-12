@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
+import { Col, Container, Row, Card, Button } from 'react-bootstrap';
+import { Navi } from './component/Navi';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Home from './component/Home'
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import Login from './page/Login'
+import { Register } from './page/Register';
+import data from './data/tutorData.json'
+import Tutor  from './page/Tutor';
 function App() {
+  const tutorData = JSON.parse(JSON.stringify(data.initialTutorData))
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+      <Navi/>
+        <Routes >
+              <Route index element={<Home tutorData={tutorData}/>}/>
+              <Route path='/teacher/login' element={<Login userData={""}/>}/>
+              <Route path='/student/login' element={<Login userData={""}/>}/>
+              <Route path='/student/register' element={<Register userData={""}/>}/>
+              <Route path='/student/register' element={<Register userData={""}/>}/>
+              <Route path='/tutor' element={<Tutor tutorData={tutorData}/>}/>
+             
+        </Routes>
+    </BrowserRouter>
   );
 }
 
